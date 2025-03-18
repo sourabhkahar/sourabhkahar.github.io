@@ -569,7 +569,7 @@ p {
 
 .nav_link:hover {
   --tw-text-opacity: 1;
-  color: rgb(199 154 135 / var(--tw-text-opacity));
+  color: red;
 }
 
 @media (min-width: 1024px) {
@@ -584,7 +584,7 @@ p {
 
 .nav_link.active {
   --tw-text-opacity: 1;
-  color: rgb(199 154 135 / var(--tw-text-opacity));
+  color: red;
 }
 
 #blog:hover~ul,
@@ -879,12 +879,12 @@ ul.leaders span:last-child {
   font-size: 1rem;
   line-height: 1.5rem;
   --tw-text-opacity: 1;
-  color: rgb(199 154 135 / var(--tw-text-opacity));
+  color: red;
 }
 
 .work-time {
   --tw-text-opacity: 1;
-  color: rgb(199 154 135 / var(--tw-text-opacity));
+  color: red;
 }
 
 .work-info {
@@ -2550,7 +2550,7 @@ select{
 
 .hover\:text-skin:hover {
   --tw-text-opacity: 1;
-  color: rgb(199 154 135 / var(--tw-text-opacity));
+  color: red;
 }
 
 .hover\:text-white:hover {

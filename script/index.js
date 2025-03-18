@@ -102,32 +102,33 @@ $(document).ready(function () {
     // Smooth scrolling when clicking on navigation links
     sectionIds.click(function (e) {
         e.preventDefault(); // Prevent default anchor click behavior
-
+		$('.nav_link').removeClass('active');
         var target = $(this).attr('href');
         var targetOffset = $(target).offset().top;
 
         $('html, body').animate({
             scrollTop: targetOffset
         }, 1000); // Adjust the duration (1000ms = 1 second) as needed
+		$(this).addClass('active');
     });
 
     // Highlighting navigation links on scroll
 
-    $(document).scroll(function () {
-        sectionIds.each(function () {
-            var container = $(this).attr('href');
-            var containerOffset = $(container).offset().top;
-            var containerHeight = $(container).outerHeight();
-            var containerBottom = containerOffset + containerHeight;
-            var scrollPosition = $(document).scrollTop();
+    // $(document).scroll(function () {
+    //     sectionIds.each(function () {
+    //         var container = $(this).attr('href');
+    //         var containerOffset = $(container).offset().top;
+    //         var containerHeight = $(container).outerHeight();
+    //         var containerBottom = containerOffset + containerHeight;
+    //         var scrollPosition = $(document).scrollTop();
 
-            if (scrollPosition < containerBottom - 100 && scrollPosition >= containerOffset - 0) {
-                $(this).addClass('active');
-            } else {
-                $(this).removeClass('active');
-            }
-        });
-    });
+    //         if (scrollPosition < containerBottom - 100 && scrollPosition >= containerOffset - 0) {
+    //             $(this).addClass('active');
+    //         } else {
+    //             $(this).removeClass('active');
+    //         }
+    //     });
+    // });
 });
  
 
