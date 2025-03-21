@@ -28,17 +28,17 @@
 .swiper-button-prev {
     position: relative !important;
     top: 40px !important;
-    left: -55px !important;
+    left: -45px !important;
     width: 41px !important;
     height: 41px !important;
 }
 
 .swiper-button-next {
-    position: relative !important;
+    /* position: relative !important;*/
     top: 40px !important;
     right: 35px !important;
     width: 41px !important;
-    height: 41px !important;
+    height: 41px !important; 
 }
 
 .swiper-button-prev:after {
@@ -235,10 +235,6 @@ height: 12px !important; */
     background: #000000 !important;
     color: #FFFFFF !important;
     border-radius: 6px !important;
-}
-
-.dropdown-toggle {
-  
 }
 
 
