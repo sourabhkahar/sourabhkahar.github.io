@@ -540,7 +540,7 @@ p {
 
 .gal-btn.active {
   --tw-bg-opacity: 1;
-  background-color: rgb(199 154 135 / var(--tw-bg-opacity));
+  background-color: #000000;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1854,7 +1854,7 @@ select{
 }
 
 .bg-skin\/50 {
-  background-color: rgb(199 154 135 / 0.5);
+  background-color: black;
 }
 
 .bg-transparent {
@@ -2530,7 +2530,7 @@ select{
 
 .hover\:bg-skin:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(199 154 135 / var(--tw-bg-opacity));
+  background-color: black;
 }
 
 .hover\:bg-white:hover {
