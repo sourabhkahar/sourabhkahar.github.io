@@ -1,1 +1,0 @@
-import{a9 as o,K as s}from"./index-C6rW8FPM.js";const u=o("user",()=>{const e=s({id:"",token:"",name:""});return{user:e,logout:()=>{e.token="",e.id="",e.name=""},setUser:t=>{e.token=t.token,e.id=t.id,e.name=t.name}}},{persist:!0});export{u};
