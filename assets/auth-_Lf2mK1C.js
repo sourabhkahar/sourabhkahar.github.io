@@ -1,0 +1,1 @@
+import{ab as o,L as s}from"./index-DdIKIjWg.js";const u=o("user",()=>{const e=s({id:"",token:"",name:""});return{user:e,logout:()=>{e.token="",e.id="",e.name=""},setUser:t=>{e.token=t.token,e.id=t.id,e.name=t.name}}},{persist:!0});export{u};
